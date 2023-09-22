@@ -54,7 +54,7 @@ class PrevisaoDoTempo(QMainWindow):
 
 if __name__ == "__main__":
     # Substitua 'SUA_API_KEY_AQUI' pela sua chave de API do OpenWeatherMap
-    api_key = 'db0c498652f0719b819df72d651ec36a'
+    api_key = 'sua_api_key_aqui'
     
     app = QApplication(sys.argv)  # Inicializa a aplicação Qt
     previsao_tempo = PrevisaoDoTempo(api_key)  # Cria uma instância da classe 'PrevisaoDoTempo'
